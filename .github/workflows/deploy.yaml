@@ -58,8 +58,9 @@ jobs:
     name: CD Prod
     needs: build
     runs-on: ubuntu-latest
-    environment: prod
-
+    environment: 
+      name: prod
+      url: https://cloudflareprodpractice.nicolas-navarro.workers.dev/
     steps:
       - name: Download artifact
         uses: actions/download-artifact@v4
