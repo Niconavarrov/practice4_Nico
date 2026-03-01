@@ -74,7 +74,7 @@ jobs:
           command: >-
             deploy dist/practice4/index.js
             --name cloudflareprodpractice
-            --compatibility-date 2026-02-26
+            --compatibility-date 2026-02-28
             --compatibility-flags=nodejs_compat
             --assets dist/client 
 
